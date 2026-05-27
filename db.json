@@ -1,0 +1,281 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "title": "Peppa Pig Theme",
+      "artistId": 1,
+      "ageGroup": "0-3",
+      "duration": "1:30",
+      "cover": "🐷",
+      "lyrics": "Peppa Pig! Peppa Pig! Oink oink oink..."
+    },
+    {
+      "id": "2",
+      "title": "Bluey Theme Song",
+      "artistId": 1,
+      "ageGroup": "0-3",
+      "duration": "0:50",
+      "cover": "🐶",
+      "lyrics": "Mum, dad, Bingo and me, we're the Heeler family..."
+    },
+    {
+      "id": "3",
+      "title": "Bing Theme Song",
+      "artistId": 2,
+      "ageGroup": "0-3",
+      "duration": "1:10",
+      "cover": "🐰",
+      "lyrics": "Bing bong, bing bong, bing bing bing bong..."
+    },
+    {
+      "id": "4",
+      "title": "Trotro Theme",
+      "artistId": 2,
+      "ageGroup": "0-3",
+      "duration": "1:00",
+      "cover": "🫏",
+      "lyrics": "Trotro il piccolo asino, sempre allegro e birichino..."
+    },
+    {
+      "id": "5",
+      "title": "PAW Patrol Theme",
+      "artistId": 3,
+      "ageGroup": "3-6",
+      "duration": "1:45",
+      "cover": "🐾",
+      "lyrics": "PAW Patrol, PAW Patrol, we'll be there on the double..."
+    },
+    {
+      "id": "6",
+      "title": "Let It Go",
+      "artistId": 4,
+      "ageGroup": "3-6",
+      "duration": "3:45",
+      "cover": "❄️",
+      "lyrics": "Let it go, let it go, can't hold it back anymore..."
+    },
+    {
+      "id": "7",
+      "title": "Miraculous Ladybug Theme",
+      "artistId": 3,
+      "ageGroup": "3-6",
+      "duration": "2:00",
+      "cover": "🐞",
+      "lyrics": "Miraculous, just be yourself, miraculously..."
+    },
+    {
+      "id": "8",
+      "title": "You've Got a Friend in Me",
+      "artistId": 4,
+      "ageGroup": "3-6",
+      "duration": "2:10",
+      "cover": "🤠",
+      "lyrics": "You've got a friend in me, you've got a friend in me..."
+    },
+    {
+      "id": "9",
+      "title": "Gotta Catch 'Em All",
+      "artistId": 5,
+      "ageGroup": "6-9",
+      "duration": "2:20",
+      "cover": "⚡",
+      "lyrics": "I wanna be the very best, like no one ever was..."
+    },
+    {
+      "id": "10",
+      "title": "Cha-La Head-Cha-La",
+      "artistId": 6,
+      "ageGroup": "6-9",
+      "duration": "3:30",
+      "cover": "🐉",
+      "lyrics": "Cha-la head-cha-la, nani ga okite mo kibun wa..."
+    },
+    {
+      "id": "11",
+      "title": "Moonlight Densetsu",
+      "artistId": 6,
+      "ageGroup": "6-9",
+      "duration": "3:15",
+      "cover": "🌙",
+      "lyrics": "Gomen ne sunao ja nakute, yume no naka nara ieru..."
+    },
+    {
+      "id": "12",
+      "title": "Winx Club Theme",
+      "artistId": 7,
+      "ageGroup": "6-9",
+      "duration": "2:00",
+      "cover": "🧚",
+      "lyrics": "We're the Winx, we're the Winx, join the club, join the club..."
+    },
+    {
+      "id": "13",
+      "title": "Rocks (Naruto Opening)",
+      "artistId": 8,
+      "ageGroup": "9+",
+      "duration": "4:00",
+      "cover": "🍃",
+      "lyrics": "Rocks! Fighting dreamers, never give up the fight..."
+    },
+    {
+      "id": "14",
+      "title": "We Are! (One Piece)",
+      "artistId": 6,
+      "ageGroup": "9+",
+      "duration": "3:50",
+      "cover": "☠️",
+      "lyrics": "We are, we are on the cruise, we are..."
+    },
+    {
+      "id": "15",
+      "title": "Guren no Yumiya (AoT)",
+      "artistId": 9,
+      "ageGroup": "9+",
+      "duration": "4:20",
+      "cover": "⚔️",
+      "lyrics": "Fure fure, shōnen yo, sono me ni hikari wo..."
+    },
+    {
+      "id": "16",
+      "title": "Again (FMA Brotherhood)",
+      "artistId": 9,
+      "ageGroup": "9+",
+      "duration": "4:10",
+      "cover": "⚙️",
+      "lyrics": "Uso dato itta ne, egao de waratte..."
+    },
+    {
+      "title": "Doraemon",
+      "artistId": 5,
+      "ageGroup": "3-6",
+      "duration": "2:30",
+      "cover": "🤖",
+      "lyrics": "Doraemon Doraemon..",
+      "id": "Xj2lxjDO7qk"
+    }
+  ],
+  "artists": [
+    {
+      "id": "1",
+      "name": "Entertainment One",
+      "bio": "Produttore di serie animate per i più piccoli, autore di Peppa Pig e Bluey.",
+      "genre": "prescolari",
+      "cover": "🎬"
+    },
+    {
+      "id": "2",
+      "name": "Studio Caiman",
+      "bio": "Produzioni animate dedicate alla prima infanzia, tra cui Bing e Trotro.",
+      "genre": "prescolari",
+      "cover": "🧸"
+    },
+    {
+      "id": "3",
+      "name": "Nickelodeon / Zagtoon",
+      "bio": "Grandi produzioni per bambini in età prescolare: PAW Patrol e Miraculous.",
+      "genre": "bambini",
+      "cover": "📺"
+    },
+    {
+      "id": "4",
+      "name": "Disney",
+      "bio": "Il gigante dell'animazione mondiale, autore di sigle indimenticabili.",
+      "genre": "bambini",
+      "cover": "✨"
+    },
+    {
+      "id": "5",
+      "name": "OLM / Nintendo",
+      "bio": "I creatori del franchise Pokémon, una delle serie più amate di sempre.",
+      "genre": "ragazzi",
+      "cover": "🎮"
+    },
+    {
+      "id": "6",
+      "name": "Toei Animation",
+      "bio": "Lo studio giapponese dietro Dragon Ball, Sailor Moon e One Piece.",
+      "genre": "anime",
+      "cover": "🇯🇵"
+    },
+    {
+      "id": "7",
+      "name": "Rainbow SpA",
+      "bio": "Lo studio italiano creatore di Winx Club.",
+      "genre": "ragazzi",
+      "cover": "🌈"
+    },
+    {
+      "id": "8",
+      "name": "Studio Pierrot",
+      "bio": "Lo studio dietro Naruto e altri anime di successo.",
+      "genre": "anime",
+      "cover": "🍃"
+    },
+    {
+      "id": "9",
+      "name": "Wit Studio / Bones",
+      "bio": "Autori di Attack on Titan e Fullmetal Alchemist Brotherhood.",
+      "genre": "anime",
+      "cover": "⚔️"
+    }
+  ],
+  "favorites": [
+    {
+      "userId": 1,
+      "songId": "4",
+      "id": "Emu4QLGe2iI"
+    },
+    {
+      "userId": 1,
+      "songId": "14",
+      "id": "MR-28oBNfcU"
+    },
+    {
+      "userId": 1,
+      "songId": "11",
+      "id": "izJJkLOB8W4"
+    },
+    {
+      "userId": 1,
+      "songId": "10",
+      "id": "Xm0-sFcs0L8"
+    },
+    {
+      "userId": 2,
+      "songId": "6",
+      "id": "GoG4OUf0prM"
+    },
+    {
+      "userId": 2,
+      "songId": "8",
+      "id": "xNy82W36HXY"
+    },
+    {
+      "userId": 2,
+      "songId": "13",
+      "id": "CrIZccAflM0"
+    },
+    {
+      "userId": 2,
+      "songId": "11",
+      "id": "J6E1jJzhW9s"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "name": "Admin"
+    },
+    {
+      "id": "2",
+      "username": "utente",
+      "password": "utente123",
+      "role": "user",
+      "name": "Genitore"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
