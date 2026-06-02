@@ -11,7 +11,7 @@
   --blue: #9bbfca;
   --surface: #fefafa;
   --text: #2d2d2d;
-  --text-light: #6b6b6b;
+  --text-light: #4a8a96;
   --radius: 16px;
   --shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
@@ -157,6 +157,7 @@ main {
   box-shadow: var(--shadow);
   overflow: hidden;
   transition: transform 0.2s;
+  border-top: none;
 }
 
 .card:hover {
@@ -729,4 +730,139 @@ main {
 .search-clear:hover {
   background: #eee;
   color: var(--pink);
+}
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .age-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dash-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+
+  .hero-emoji {
+    font-size: 4rem;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .detail-card {
+    flex-direction: column;
+  }
+
+  .detail-cover {
+    width: 100%;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 1rem;
+  }
+
+  .navbar-links {
+    order: 3;
+    width: 100%;
+    justify-content: center;
+    font-size: 1rem;
+    gap: 1rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.2rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .age-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.8rem;
+  }
+
+  .hero {
+    padding: 1.5rem;
+  }
+
+  .hero-text h1 {
+    font-size: 1.4rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filters {
+    flex-direction: column;
+  }
+
+  .filter-select {
+    width: 100%;
+  }
+
+  .login-card {
+    padding: 1.5rem;
+    margin: 0 0.5rem;
+  }
+
+  .detail-card {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+  .page-title {
+    font-size: 1.4rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.1rem;
+  }
+
+  .dash-form-card,
+  .dash-table-card {
+    padding: 1rem;
+  }
+
+  .dash-table {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .age-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
