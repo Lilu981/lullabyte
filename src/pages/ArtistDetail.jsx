@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchArtistById } from "../store/slices/artistsSlice";
 import { fetchSongs } from "../store/slices/songsSlice";

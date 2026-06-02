@@ -17,12 +17,6 @@ function SongCard({ song }) {
     }
   };
 
-  const titleColor = {
-    "0-3": "#F06B8A",
-    "3-6": "#5B9EC9",
-    "6-9": "#9B7FC7",
-    "9+": "#4A9E8E",
-  };
   return (
     <div className="card">
       <div className="card-cover">{song.cover}</div>

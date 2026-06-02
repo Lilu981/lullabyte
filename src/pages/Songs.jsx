@@ -21,10 +21,12 @@ function Songs() {
   }, [dispatch]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setPage(1);
   }, [search, ageGroup]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setAgeGroup((searchParams.get("ageGroup") || "").replace(" ", "+"));
   }, [searchParams]);
 
